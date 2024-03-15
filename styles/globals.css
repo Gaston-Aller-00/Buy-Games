@@ -1,4 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* hero background fachero */
+@layer components {
+  .bg {
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.765),
+        rgba(9, 8, 46, 0.829)
+      ),
+      url("/images/hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.btn:hover {
+    @apply hover:scale-105 transition-all duration-300 text-white;
+  }
+  
