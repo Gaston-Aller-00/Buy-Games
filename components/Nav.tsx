@@ -10,7 +10,7 @@ import {
 } from "@heroicons/react/16/solid";
 const Nav = () => {
   return (
-    <div className="h-[13vh] bg-gray-800 text-white ">
+    <div className="h-[10vh] bg-gray-800 text-white ">
       <div className="w-[95%] md:w-[80%] mx-auto h-[100%] flex items-center justify-between  ">
         <div>
           <Link href="/">
@@ -40,8 +40,8 @@ const Nav = () => {
             </div>
           </div>
           {/* <div> */}
-            <HeartIcon className="text-white  w-[2rem]  h-[2rem] cursor-pointer" />
-            <UserIcon className="text-white  w-[2rem]  h-[2rem] cursor-pointer"/>
+          <HeartIcon className="text-white  w-[2rem]  h-[2rem] cursor-pointer" />
+          <UserIcon className="text-white  w-[2rem]  h-[2rem] cursor-pointer" />
           {/* </div> */}
         </div>
       </div>

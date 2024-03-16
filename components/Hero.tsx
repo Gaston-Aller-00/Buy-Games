@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="relative w-[100vw] h-[60vh]  md:h-[87vh] bg">
+    <div className="relative w-[100vw] h-[60vh]  md:h-[87vh]   bg">
       <div className="w-[90%] mx-auto h-[100%] flex flex-col items-start justify-center ">
         <div className="text-white font-bold text-[25px] md:text-[30px]  lg:text-[40px] uppercase">
           Best Place to Buy Games
