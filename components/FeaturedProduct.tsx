@@ -3,7 +3,7 @@ import FeaturedProductsSlider from "./Helper/FeaturedProductsSlider";
 
 const FeaturedProduct = () => {
   return (
-    <div className="pt-[6rem] pb-[3rem] bg-gray-900">
+    <div   className="pt-[6rem] pb-[3rem] bg-gray-900">
       <div className="w-[80%] mx-auto flex items-center justify-between">
         <h1 className="md:text-[28px] text-[22px] lg:text-[34px] text-white">
           Featured Producst
