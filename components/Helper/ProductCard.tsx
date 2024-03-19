@@ -25,7 +25,7 @@ const ProductCard = ({
           alt={title}
           width={350}
           height={200}
-          className="w-[100%] h-[90%] object-cover md:w-[90%]  md:h-[90%]"
+          className="w-[100%] h-[90%] object-cover md:w-[90%]  md:h-[90%] rounded"
         />
       </div>
       <div className="mt-[1rem] w-[100%] md:w-[90%] ">
@@ -33,9 +33,9 @@ const ProductCard = ({
           <p className="text-[14px] text-white opacity-70">{category}</p>
           <HeartIcon className="w-[1rem] h-[1rem] text-gray-500" />
         </div>
-        <h1 className=" mt-[0.3rem] font-bold text-white  opacity-85">
+        <h2 className=" mt-[0.3rem] font-bold text-white  opacity-85">
           {title}
-        </h1>
+        </h2>
         <div className="mt-[0.3rem] flex items-center ">
           <StarIcon className="w-[1rem] h-[1rem] text-yellow-400" />
           <StarIcon className="w-[1rem] h-[1rem] text-yellow-400" />
