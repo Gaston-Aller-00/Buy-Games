@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="pt-[3rem] pb-[3rem] bg-gray-800 ">
       <div className="w-[80%] border-b-[1.2px] pb-[2rem] border-b-slate-500 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[3rem]">
         <div>
-          <h1 className="text-[25px] uppercase text-white mb-[1rem]">Gaming</h1>
+          <h2 className="text-[25px] uppercase text-white mb-[1rem]">Gaming</h2>
           <p className="text-[14px]  text-white opacity-60">
             At GameVerse, we're dedicated to providing gamers with the ultimate
             digital playground. Whether you're a seasoned veteran or a newbie to
@@ -19,7 +19,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="flex flex-col lg:mx-auto space-y-3">
-          <h1 className="text-[20px] text-white mb-[1.5rem] ">Information</h1>
+          <h2 className="text-[20px] text-white mb-[1.5rem] ">Information</h2>
           <Link href="/" className="footer_link">
             About us
           </Link>
@@ -37,7 +37,7 @@ const Footer = () => {
           </Link>
         </div>
         <div className="flex flex-col lg:mx-auto space-y-3">
-          <h1 className="text-[20px] text-white mb-[1.5rem]">Services</h1>
+          <h2 className="text-[20px] text-white mb-[1.5rem]">Services</h2>
           <Link href="/" className="footer_link">
             Customer Support
           </Link>
@@ -55,7 +55,7 @@ const Footer = () => {
           </Link>
         </div>
         <div className="flex flex-col lg:mx-auto space-y-3">
-          <h1 className="text-[20px] text-white mb-[1.5rem] ">Contact</h1>
+          <h2 className="text-[20px] text-white mb-[1.5rem] ">Contact</h2>
           <Link href="/" className="footer_link">
             Email: info@example.com
           </Link>
