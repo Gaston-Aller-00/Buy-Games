@@ -6,9 +6,9 @@ const Contact = () => {
     <div className="pt-[5rem] pb-[3rem] bg-gray-900  ">
       <div className="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-[1rem] md:gap-[8rem] ">
         <div className="mt-[1.5rem] md:mt-0">
-          <h1 className=" mb-4 text-[25px] md:text-[30px] lg:text-[35px] leading-[2.4rem] text-white">
+          <h2 className=" mb-4 text-[25px] md:text-[30px] lg:text-[35px] leading-[2.4rem] text-white">
             Get Our email for info on new items, sales and more.{" "}
-          </h1>
+          </h2>
           <p className="text-[17px] text-white mt-[0.8] mb-[1.5rem] opacity-70 ">
             We will email you a voucher wotrh 10$ off your
           </p>
@@ -28,10 +28,10 @@ const Contact = () => {
           </div>
         </div>
         <div className="">
-          <h1 className="ttext-[20px] md:text-[25px] lg:text-[30px] leading-[2.4rem] text-white ">
+          <h2 className="ttext-[20px] md:text-[25px] lg:text-[30px] leading-[2.4rem] text-white ">
             Need help? <br />
             (+323 424 2424)
-          </h1>
+          </h2>
           <p className="text-white opacity-70 mt-[0.5rem]">
             We are available 8:00am - 7:00pm
           </p>
