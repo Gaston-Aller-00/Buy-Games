@@ -5,9 +5,9 @@ const BestSeller = () => {
   return (
     <div className="bg-gray-900 pt-[4rem] pb-p[3rem]">
       <div className="w-[80%] mx-auto flex items-center justify-between">
-        <h1 className="md:text-[28px] text-[22px] lg:text-[34px] text-white">
+        <h2 className="md:text-[28px] text-[22px] lg:text-[34px] text-white">
           Best Seller
-        </h1>
+        </h2>
         <button className="text-yellow-400">View All Producst</button>
       </div>
       <div className="grid gris-cols1 mt-[2rem] md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-8 w-[80%] mx-auto ">
